@@ -20,4 +20,8 @@ func main() {
 	fmt.Println(puppy.Bark())
 	fmt.Println(puppy.BigBark())
 	fmt.Println(puppy.Barks())
+
+	fmt.Println("Hi " + puppy.Bark())
+	fmt.Println("Bye " + puppy.BigBark())
+	fmt.Println("Bye Bye " + puppy.Barks())
 }
